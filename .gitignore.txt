@@ -1,0 +1,14 @@
+# Angular
+adCampaign/node_modules
+adCampaign/dist
+
+# Laravel
+campaignApi/vendor
+campaignApi/node_modules
+campaignApi/.env
+campaignApi/storage/*.key
+campaignApi/public/storage
+
+# Common
+node_modules
+.env
