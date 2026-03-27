@@ -20,6 +20,5 @@ Route::get('/getPageData',[PageController::class,'GetPageData']);
     Route::get('/campaign/{id}',[CampaignController::class,'show']);
     Route::post('/updateCampaign/{id}',[CampaignController::class,'edit']);
     Route::delete('/delete/{id}',[CampaignController::class,'delete']);
-Route::get('/items',[ItemController::class,'index']);
 
 
