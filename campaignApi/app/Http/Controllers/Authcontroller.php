@@ -14,7 +14,6 @@ class Authcontroller extends Controller
             'name'=>'required',
             'email'=>'required',
             'password'=>'required',
-            'role'=>'required',
         ]);
         $role = User::count() == 0 ? 'admin' : 'user';
         
